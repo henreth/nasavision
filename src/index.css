@@ -3,13 +3,13 @@ body{
 }
 
 #root {
-  text-align: center;
+  /* text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
   width: 100vw;
   min-height: 100vh;
   overflow: hidden;
-  background: linear-gradient(40deg, #262726, #0a0936, #bebebe, #343535);
+  background: linear-gradient(40deg, #262726, #070624, #bebebe, #2d3538);
   background-size: 400% 400%;
   animation: gradient 50s ease infinite;
   font-family: 'Montserrat', sans-serif;

@@ -3,10 +3,11 @@
   }
   
 .cardContainer {
-      width: 390vw;
-      max-width: 460px;
-      /* height: 490px; */
-        /* margin-bottom: 90px; */
+    width: 390vw;
+    max-width: 460px;
+    /* height: 490px; */
+    margin-top: 11%;
+    margin-left: -16%
 }
   
 .card {
@@ -20,8 +21,7 @@
     border-radius: 10px;
     background-size: cover;
     background-position: center;
-    /* cursor: pointer; */
-    box-shadow: -80px -15px 25px rgba(0, 0, 0, 0.199);
+    box-shadow: -90px 25px 25px rgba(0, 0, 0, 0.493);
     transition: all .15s;
 }
   
@@ -68,9 +68,9 @@
     color: white;
     display: flex;
     justify-content: left;
-    font-size: 240%;
+    font-size: 205%;
     padding-bottom: 0%;
-    margin-top: 5%;
+    margin-top: 20%;
     margin-bottom: 1%;
     font-family: 'Montserrat', sans-serif;
 

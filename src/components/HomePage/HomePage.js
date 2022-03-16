@@ -24,6 +24,11 @@ export default function HomePage(){
             <div className='cardContainer'>
                 <PhotoCard data={data}/>
             </div>
+            <div className='background-container'>
+                <div class="stars"></div>
+                <div class="twinkling"></div>
+                <div class="clouds"></div>
+            </div>
         </React.Fragment>
     )
 }

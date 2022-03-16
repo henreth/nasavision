@@ -6,9 +6,10 @@ body{
   /* text-align: center;
   display: flex;
   justify-content: center; */
-  width: 100vw;
-  min-height: 100vh;
+  width: 90vw;
+  min-height: 90vh;
   overflow: hidden;
+  overflow-x: hidden;
   background: linear-gradient(40deg, #262726, #070624, #bebebe, #2d3538);
   background-size: 400% 400%;
   animation: gradient 50s ease infinite;

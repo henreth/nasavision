@@ -6,8 +6,8 @@
     width: 390vw;
     max-width: 460px;
     /* height: 490px; */
-    margin-top: 11%;
-    margin-left: -16%
+    margin-top: 6%;
+    margin-left: -20%
 }
   
 .card {
@@ -15,28 +15,28 @@
     /* background-color: rgb(78, 80, 78); */
     display: flex;
     flex-direction: row;
-    background-color: black;
-    width: 850px;
-    height: 500px;
+    background-color: rgb(46, 45, 45);
+    width: 1000px;
+    height: 600px;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
-    box-shadow: -90px 25px 25px rgba(0, 0, 0, 0.493);
-    transition: all .15s;
+    /* box-shadow: -90px 25px 25px rgba(0, 0, 0, 0.493); */
+    transition: all .55s;
 }
   
 .image {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    height: 500px;
-    width: 460px;
+    height: 100%;
+    width: 60%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
 .card:hover{
-    box-shadow: 0px 0px 60px 0px rgba(236, 224, 60, 0.295);
+    /* box-shadow: 0px 0px 60px 0px rgba(235, 231, 206, 0.178); */
 }
 
 .location-icon-here {
@@ -68,31 +68,15 @@
     color: white;
     display: flex;
     justify-content: left;
-    font-size: 205%;
+    font-size: 215%;
     padding-bottom: 0%;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-bottom: 1%;
     font-family: 'Montserrat', sans-serif;
 
 }
 
-.card-location {
-    /* margin-top: 2%; */
-    color: white;
-    display: flex;
-    justify-content: left;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.card-location-long {
-    margin-top: 2%;
-    color: white;
-    display: flex;
-    justify-content: left;
-    font-size: 150%;
-}
-
-.card-subtitle {
+.card-date {
     color: white;
     display: flex;
     justify-content: center;
@@ -104,12 +88,12 @@
     display: flex;
     justify-content: left;
     margin-top: 0%;
-    font-size: 65%;
+    font-size: 80%;
     font-family: 'Montserrat', sans-serif;
 }
 
-.unmatch-button {
-    margin-top: 10%;
+.link-button {
+    margin-top: 5%;
     cursor: pointer;
     font-size: 1.1rem;
     font-family: 'Montserrat', sans-serif;
@@ -126,30 +110,8 @@
     transition: .25s;
 }
 
-.unmatch-button:hover {
-    /* background-color: rgb(37, 37, 37); */
-    background-color: rgb(238, 106, 92);
-    color: rgb(53, 20, 20);
-        animation: pump 2s linear infinite;
+.link-button:hover {
+    background-color: rgba(170, 170, 170, 1);
+    color: rgb(20, 20, 20);
 }
-
-
-.clicked-button {
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 10%;
-    cursor:default;
-    font-size: 1.1rem;
-    color: rgb(42, 42, 42);
-    outline: none;
-    border: none;
-    font-weight: 700;
-    border-radius: 5px;
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgb(84, 84, 84);
-    transition: .25s;
-}
-
 

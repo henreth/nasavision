@@ -49,9 +49,8 @@
     justify-content: top, center;
     text-align: center;
     flex-direction: column;
-    padding-left: 5%;
+        padding-left: 5%;
     padding-right: 5%; 
-    margin-left: -1%;
 }
 
 .card-title {

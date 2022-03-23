@@ -2,11 +2,6 @@ import React, { useState,useEffect } from 'react'
 import './PhotoCard.css';
 import axios from 'axios';
 
-
-
-let unmatchUrl = 'http://localhost:4000/unmatch';
-let userUrl = 'http://localhost:4000/user';
-
 function PhotoCard ({data}) {
 
     function openLink(){

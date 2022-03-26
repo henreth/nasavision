@@ -65,7 +65,7 @@
 }
 
 .card-title-long {
-    color: white;
+    color: rgb(209, 205, 205);
     display: flex;
     justify-content: left;
     font-size: 215%;

@@ -1,0 +1,12 @@
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.photoOftheDay{
+    border: .25px solid rgb(132, 132, 132);
+    width: 65vw;
+}

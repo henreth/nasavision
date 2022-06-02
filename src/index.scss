@@ -1,4 +1,4 @@
-body {
+body{
   background-color: black;
 }
 
@@ -14,41 +14,26 @@ body {
   /* background: linear-gradient(40deg, #262726, #070624, #bebebe, #2d3538);
   background-size: 400% 400%;
   animation: gradient 50s ease infinite; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif
 }
 
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 @keyframes gradient {
-  0% {
+0% {
     background-position: 0% 50%;
-  }
-  50% {
+}
+50% {
     background-position: 100% 50%;
-  }
-  100% {
+}
+100% {
     background-position: 0% 50%;
-  }
+}
 }
 
 .row {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
-.row > * {
+.row>* {
   /* margin: 5px; */
 }
-/*# sourceMappingURL=index.css.map */

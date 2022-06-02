@@ -19,4 +19,38 @@
   border: 0.25px solid #848484;
   width: 65vw;
 }
+
+.photo-line-1 {
+  margin-top: 1.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 150%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.photo-title {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 200%;
+}
+
+.photo-more {
+  font-size: 30px;
+  margin-left: 1.5%;
+}
+
+.photo-copyright {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: #a5a5a5;
+  font-size: 125%;
+}
 /*# sourceMappingURL=Photo.css.map */

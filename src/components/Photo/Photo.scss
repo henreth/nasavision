@@ -10,3 +10,30 @@
     border: .25px solid rgb(132, 132, 132);
     width: 65vw;
 }
+
+.photo-line-1{
+    margin-top: 1.5%;
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-title{
+	font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 200%;
+    // margin-left: 15%;
+}
+
+.photo-more{
+    font-size: 30px;
+    margin-left: 1.5%;
+}
+
+.photo-copyright{
+	font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(165, 165, 165);
+    font-size: 125%;
+}
+

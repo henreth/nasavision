@@ -9,7 +9,7 @@
 .photoOftheDay{
     border: 2px solid rgb(132, 132, 132);
     border-radius: 5px;
-    width: 50vw;
+    // width: 50vw;
 }
 
 .photo-line-1{
@@ -42,3 +42,20 @@
     width: 15%;
     font-size: 175%;
 }
+
+
+#container {
+	position: relative;
+	// background-color: lightpink;
+	// border: solid red 1px;
+	z-index: 1;
+  }
+  
+  #draghandle {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translate(50%,50%);
+	z-index: 1;
+
+  }

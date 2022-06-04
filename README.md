@@ -1,7 +1,5 @@
 
-<!-- # <img src="title.gif" width="1000"> -->
-
-
+# <img src="title.png" width="500">
 
 A webpage that peers into the universe through the eyes of NASA.
 
@@ -19,7 +17,7 @@ A webpage that peers into the universe through the eyes of NASA.
 
 # Demos:
 
-<!-- <img src="pocket-demo.gif" width="850"> -->
+<img src="nasavision-demo.gif" width="850">
 
 #
 ## Technical Accomplishments

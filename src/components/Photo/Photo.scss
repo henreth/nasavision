@@ -23,8 +23,9 @@
 
 .photo-title{
 	font-family: 'Kdam Thmor Pro', sans-serif;
-    font-size: 200%;
-    // margin-left: 15%;
+    // font-size: 200%;
+    font-size: 2.9vh;
+    // font-size: max(2.9vh, 12px);
 }
 
 .photo-more{
@@ -35,7 +36,9 @@
 .photo-copyright{
 	font-family: 'Kdam Thmor Pro', sans-serif;
     color: rgb(165, 165, 165);
-    font-size: 125%;
+    // font-size: 125%;
+    font-size: 1.8vh;
+    // font-size: max(1.8vh, 9px);
 }
 
 .photo-information{
@@ -46,8 +49,6 @@
 
 #container {
 	position: relative;
-	// background-color: lightpink;
-	// border: solid red 1px;
 	z-index: 1;
   }
   
@@ -57,5 +58,4 @@
 	right: 0;
 	transform: translate(50%,50%);
 	z-index: 1;
-
   }

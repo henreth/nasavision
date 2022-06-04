@@ -13,7 +13,6 @@ export default function HomePage() {
     useEffect(() => {
         axios.get(photoOfTheDayURL)
             .then(r => {
-                console.log(r.data)
                 setPhotoOfTheDay(r.data)
             })
     }, [])

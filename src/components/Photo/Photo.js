@@ -7,7 +7,7 @@ import ReactTooltip from "react-tooltip";
 
 
 export default function Photo({ data }) {
-    const [size, setSize] = useState({ x: window.innerWidth / 2, y: 70 });
+    const [size, setSize] = useState({ x: window.innerWidth / 2.5, y: 70 });
 
     const handler = (mouseDownEvent) => {
         const startSize = size;

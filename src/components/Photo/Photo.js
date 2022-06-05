@@ -29,6 +29,14 @@ export default function Photo({ data }) {
         document.body.addEventListener("mouseup", onMouseUp, { once: true });
     };
 
+    let descriptionText = data.explanation ? data.explanation.split('. ').map(sent=>{
+        return (
+            <li key=''>{sent + '.'}</li>
+        )
+    }) : null 
+
+    console.log(descriptionText)
+
     return (
         <div className="photo-container">
             <div id="container" >
@@ -43,11 +51,11 @@ export default function Photo({ data }) {
                     <FontAwesomeIcon data-for='info' icon={faCircleQuestion} data-tip data-event='click focus' />
                 </div>
             </div>
-            <div className="photo-copyright">{data.copyright}</div>
+            <ul className="photo-copyright">{data.copyright}</ul>
 
             <ReactTooltip id='info' globalEventOff='click'>
                 <h2>Description:</h2>
-                <span className="photo-information" >{data.explanation}</span>
+                <div className="photo-information" >{descriptionText}</div>
             </ReactTooltip>
 
         </div>

@@ -25,6 +25,7 @@
 	font-family: 'Kdam Thmor Pro', sans-serif;
     // font-size: 200%;
     font-size: 2.9vh;
+    // Must manually update the following line in the corresponding css file because scss does not compute max of differing size formats
     // font-size: max(2.9vh, 12px);
 }
 
@@ -38,6 +39,8 @@
     color: rgb(165, 165, 165);
     // font-size: 125%;
     font-size: 1.8vh;
+
+    // Must manually update the following line in the corresponding css file because scss does not compute max of differing size formats
     // font-size: max(1.8vh, 9px);
 }
 

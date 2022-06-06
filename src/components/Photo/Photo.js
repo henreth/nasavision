@@ -14,7 +14,7 @@ export default function Photo({ data }) {
         const startPosition = { x: mouseDownEvent.pageX, y: mouseDownEvent.pageY };
 
         function onMouseMove(mouseMoveEvent) {
-            setSize(currentSize => ({update
+            setSize(currentSize => ({
                 x: startSize.x - startPosition.x + mouseMoveEvent.pageX,
                 y: startSize.y - startPosition.y + mouseMoveEvent.pageY
             }));

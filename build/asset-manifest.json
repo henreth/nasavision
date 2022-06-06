@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nasavision/static/css/main.f356668a.css",
-    "main.js": "/nasavision/static/js/main.c79e1dad.js",
+    "main.js": "/nasavision/static/js/main.8b92f537.js",
     "index.html": "/nasavision/index.html",
     "main.f356668a.css.map": "/nasavision/static/css/main.f356668a.css.map",
-    "main.c79e1dad.js.map": "/nasavision/static/js/main.c79e1dad.js.map"
+    "main.8b92f537.js.map": "/nasavision/static/js/main.8b92f537.js.map"
   },
   "entrypoints": [
     "static/css/main.f356668a.css",
-    "static/js/main.c79e1dad.js"
+    "static/js/main.8b92f537.js"
   ]
 }

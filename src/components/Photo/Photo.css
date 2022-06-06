@@ -40,7 +40,7 @@
 
 .photo-title {
   font-family: 'Kdam Thmor Pro', sans-serif;
-  font-size: max(2.9vh, 12px);
+  font-size: 2.9vh;
 }
 
 .photo-more {
@@ -51,14 +51,12 @@
 .photo-copyright {
   font-family: 'Kdam Thmor Pro', sans-serif;
   color: #a5a5a5;
-  font-size: max(1.8vh, 9px);
-
+  font-size: 1.8vh;
 }
 
 .photo-information {
   width: 40vw;
   font-size: .75vw;
-  font-size: max(1.8vh, 9px);
 }
 
 #container {

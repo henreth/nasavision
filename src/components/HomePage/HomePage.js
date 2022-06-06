@@ -23,6 +23,7 @@ export default function HomePage() {
         <React.Fragment>
             <h1 className='title'>NASAVISION</h1>
             <Photo data={photoOfTheDay} />
+            <div className='credits'>Developed By: Henry Miller</div>
 
             <div className='background-container'>
                 <div className="stars"></div>

@@ -68,6 +68,8 @@
 .description-line {
   margin-top: 1%;
   margin-top: max(1%, 10px);
+	font-family: 'Kdam Thmor Pro', sans-serif;
+  z-index: 100;
 
 }
 

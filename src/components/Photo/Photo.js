@@ -14,7 +14,7 @@ export default function Photo({ data }) {
         const startPosition = { x: mouseDownEvent.pageX, y: mouseDownEvent.pageY };
 
         function onMouseMove(mouseMoveEvent) {
-            setSize(currentSize => ({
+            setSize(currentSize => ({update
                 x: startSize.x - startPosition.x + mouseMoveEvent.pageX,
                 y: startSize.y - startPosition.y + mouseMoveEvent.pageY
             }));
@@ -29,13 +29,12 @@ export default function Photo({ data }) {
         document.body.addEventListener("mouseup", onMouseUp, { once: true });
     };
 
-    let descriptionText = data.explanation ? data.explanation.split('. ').map(sent=>{
+    let descriptionText = data.explanation ? data.explanation.split('. ').map((sent,i)=>{
         return (
-            <li key=''>{sent + '.'}</li>
+            <li key={i} className='description-line'>{sent + '.'}</li>
         )
     }) : null 
 
-    console.log(descriptionText)
 
     return (
         <div className="photo-container">

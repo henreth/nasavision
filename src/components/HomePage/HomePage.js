@@ -25,9 +25,8 @@ export default function HomePage() {
             <Photo data={photoOfTheDay} />
 
             <div className='background-container'>
-                <div class="stars"></div>
-                <div class="twinkling"></div>
-                {/* <div class="clouds"></div> */}
+                <div className="stars"></div>
+                <div className="twinkling"></div>
             </div>
         </React.Fragment>
     )

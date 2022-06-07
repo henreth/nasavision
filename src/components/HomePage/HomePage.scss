@@ -89,9 +89,20 @@
 	position: absolute;
 	top: 95%;
 	transition: .5s;
+	display: flex;
+	flex-direction: row;
+	width: 25vh;
+	align-items: center;
 
 	&:hover{
 		opacity: 75%;
 		transition: .5s;
 	}
+}
+
+.repo{
+	color: #fff;
+	margin-left: 2.5%;
+	font-size: 125%;
+
 }

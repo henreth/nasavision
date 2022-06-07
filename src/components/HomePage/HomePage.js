@@ -3,6 +3,9 @@ import './HomePage.css';
 import apiKey from '../../Apikey';
 import Photo from '../Photo/Photo';
 import axios from 'axios';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 
 let photoOfTheDayURL = 'https://api.nasa.gov/planetary/apod?api_key=' + apiKey
 
@@ -17,13 +20,19 @@ export default function HomePage() {
             })
     }, [])
 
-    
+
 
     return (
         <React.Fragment>
             <h1 className='title'>NASAVISION</h1>
             <Photo data={photoOfTheDay} />
-            <div className='credits'>Developed By: Henry Miller</div>
+            <div className='credits'>
+                <div>Developed By: Henry Miller</div>
+                <a className="repo" target="_blank" rel="noreferrer" href="https://github.com/henreth/nasavision">
+                    <FontAwesomeIcon icon={faGithub} />
+                </a>
+            </div>
+
 
             <div className='background-container'>
                 <div className="stars"></div>

@@ -10,3 +10,23 @@ body{
   background-color: black;
   color: #fff;
 }
+
+::-webkit-scrollbar {
+  width: 7.5px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(75, 75, 75);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+  transition: .5s;
+  &:hover{
+      background-color: rgb(200, 200, 200);
+      transition: .5s;
+  }
+
+  &:active{
+      background-color: rgb(171, 170, 170);
+  }
+}

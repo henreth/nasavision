@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   background-color: black;
   color: #fff;
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 ::-webkit-scrollbar {

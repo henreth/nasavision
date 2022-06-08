@@ -53,7 +53,7 @@ export default function Photo({ data }) {
             <ul className="photo-copyright">{data.copyright}</ul>
 
             <ReactTooltip id='info' globalEventOff='click'>
-                <h2>Description:</h2>
+                <h2>DESCRIPTION:</h2>
                 <div className="photo-information" >{descriptionText}</div>
             </ReactTooltip>
 

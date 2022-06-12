@@ -1,7 +1,7 @@
 
 # <img src="title.png" width="500">
 
-A webpage that peers into the universe through the eyes of NASA.
+A webpage that utilizes official NASA and other space related API's to provide information about our world, space, and the universe.
 
 * View the space themed photo of the day provided by the official NASA API
 * Learn about the earth, the solar system, the universe, and more

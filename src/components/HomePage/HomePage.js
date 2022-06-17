@@ -26,12 +26,12 @@ export default function HomePage() {
         <React.Fragment>
             <h1 className='title'>NASAVISION</h1>
             <Photo data={photoOfTheDay} />
-            <div className='credits'>
-                <div>Developed By: Henry Miller</div>
+            {/* <div className='credits'>
                 <a className="repo" target="_blank" rel="noreferrer" href="https://github.com/henreth/nasavision">
-                    <FontAwesomeIcon icon={faGithub} />
+                    <FontAwesomeIcon icon={faGithub} />   
                 </a>
-            </div>
+                <div className='credits-title'>Henry Miller</div> 
+            </div> */}
 
 
             <div className='background-container'>

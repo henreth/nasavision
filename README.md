@@ -39,7 +39,7 @@ A webpage that utilizes official NASA and other space related API's to provide i
 * Run the following commands in two seperate terminals:
 
 ```
-// install start the frontend interface
+// install and start the frontend interface
 npm install --prefix client
 npm start --prefix client 
 ```

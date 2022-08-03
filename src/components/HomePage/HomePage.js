@@ -17,6 +17,7 @@ export default function HomePage() {
         axios.get(photoOfTheDayURL)
             .then(r => {
                 setPhotoOfTheDay(r.data)
+                console.log(r)
             })
     }, [])
 

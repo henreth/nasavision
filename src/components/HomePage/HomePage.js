@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './HomePage.css';
 import apiKey from '../../Apikey';
 import Photo from '../Photo/Photo';
 import axios from 'axios';

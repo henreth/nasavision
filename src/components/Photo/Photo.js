@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import "./Photo.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleQuestion } from "@fortawesome/free-regular-svg-icons"
 import { faCompressArrowsAlt } from '@fortawesome/free-solid-svg-icons';

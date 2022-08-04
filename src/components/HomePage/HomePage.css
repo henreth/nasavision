@@ -1,5 +1,5 @@
 .title {
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
   color: white;
   z-index: 1;
   font-size: 350%;
@@ -13,7 +13,6 @@
     -webkit-transform: translate3d(1000px, 0px, 0px);
   }
 }
-
 @-webkit-keyframes move-background {
   from {
     -webkit-transform: translate3d(0px, 0px, 0px);
@@ -22,7 +21,6 @@
     -webkit-transform: translate3d(1000px, 0px, 0px);
   }
 }
-
 @-webkit-keyframes move-background {
   from {
     -webkit-transform: translate3d(0px, 0px, 0px);
@@ -31,7 +29,6 @@
     -webkit-transform: translate3d(1000px, 0px, 0px);
   }
 }
-
 .background-container {
   overflow: hidden;
   position: fixed;
@@ -72,33 +69,22 @@
   color: #fff;
   opacity: 25%;
   z-index: 1;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
   position: absolute;
   top: 95%;
-  -webkit-transition: .5s;
-  transition: .5s;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  transition: 0.5s;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 30vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .credits:hover {
   opacity: 75%;
-  -webkit-transition: .5s;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .repo {
   color: #fff;
   margin-left: 2.5%;
   font-size: 125%;
-}
-/*# sourceMappingURL=HomePage.css.map */
+}/*# sourceMappingURL=HomePage.css.map */

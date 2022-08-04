@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
   background-color: black;
   color: #fff;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -16,23 +16,20 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #4b4b4b;
+  background: rgb(75, 75, 75);
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #fff;
   border-radius: 20px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #c8c8c8;
-  -webkit-transition: .5s;
-  transition: .5s;
+  background-color: rgb(200, 200, 200);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
-
 ::-webkit-scrollbar-thumb:active {
-  background-color: #abaaaa;
-}
-/*# sourceMappingURL=index.css.map */
+  background-color: rgb(171, 170, 170);
+}/*# sourceMappingURL=index.css.map */

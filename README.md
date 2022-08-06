@@ -17,7 +17,7 @@ A webpage that utilizes official NASA and other space related API's to provide i
 
 # Demos:
 
-<img src="nasavision-demo.gif" width="850">
+<img src="demo.gif" width="850">
 
 #
 ## Technical Accomplishments

@@ -22,7 +22,7 @@ A webpage that utilizes official NASA and other space related API's to provide i
 #
 ## Technical Accomplishments
 
-* Implemented NASA API to fetch and display space related image and information
+* Implemented NASA API to fetch and display space related image and information.
 * Created dynamic image resizing functionality that updates on demand by user.
 * Utilized multiple node packages to display additional information in a user-friendly and visually appealing manner.
 
@@ -30,7 +30,7 @@ A webpage that utilizes official NASA and other space related API's to provide i
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
-
+<a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> 
 
 </p>
 

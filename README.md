@@ -40,6 +40,6 @@ A webpage that utilizes official NASA and other space related API's to provide i
 
 ```
 // install and start the frontend interface
-npm install --prefix client
-npm start --prefix client 
+npm install 
+npm start 
 ```
